@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    margin-left: 50%
+}
+.header_bar {
+    background: #34568B;  
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+.title_string {
+    font-family: Arial; 
+    color: #FF6F61; 
+}
+.grid {
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.cell {
+    width: 10%;
+    height: 10%;
+}
+#cell_0 {
+    background
+}
