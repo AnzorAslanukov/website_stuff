@@ -2,7 +2,7 @@ body {
     position: absolute;
     width: 99%;
     height: 110%;
-    background: red;
+    /* background: red; */
 }
 .title {
     background: linear-gradient(-45deg, grey, black, silver);
@@ -25,7 +25,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    background: blue; 
+    /* background: blue;  */
     margin-top: 100px;
     grid-template-columns: 1fr 1fr 1fr;
     border-style: dashed; 
@@ -65,6 +65,10 @@ body {
     animation-name: gradient;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fffb96;
+    font-size: 50px;
 }
 @keyframes gradient {
     0% {
