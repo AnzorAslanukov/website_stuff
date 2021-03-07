@@ -65,26 +65,33 @@ body {
     animation-name: gradient;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-    /* background: linear-gradient(45deg, #ff71ce, #01cdfe, #05ffa1, #b967ff, #fffb96);  */
 }
 @keyframes gradient {
     0% {
         background: linear-gradient(45deg, #ff71ce, #01cdfe, #05ffa1, #b967ff, #fffb96); 
     }
-    20% {
+    12.5% {
         background: linear-gradient(45deg, #01cdfe, #05ffa1, #b967ff, #fffb96, #ff71ce);
     }
-    40% {
+    25% {
         background: linear-gradient(45deg, #05ffa1, #b967ff, #fffb96, #ff71ce, 	#01cdfe);
     }
-    60% {
+    37.5% {
         background: linear-gradient(45deg, #b967ff, #fffb96, #ff71ce, #01cdfe, #05ffa1);
     }
-    80% {
+    50% {
         background: linear-gradient(45deg, #fffb96, #ff71ce, #01cdfe, #05ffa1, #b967ff); 
     }
-    100% {
+    62.5% {
         background: linear-gradient(45deg, #b967ff, #fffb96, #ff71ce, #01cdfe, #05ffa1); 
     }
-
+    75% {
+        background: linear-gradient(45deg, #05ffa1, #b967ff, #fffb96, #ff71ce, 	#01cdfe);
+    }
+    87.5% {
+        background: linear-gradient(45deg, #01cdfe, #05ffa1, #b967ff, #fffb96, #ff71ce);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff71ce, #01cdfe, #05ffa1, #b967ff, #fffb96); 
+    }
 }
