@@ -35,8 +35,56 @@ body {
     grid-gap: 1em;
     padding: 1em;
     width: 1000px;
+    justify-items: stretch;
 }
 .grid > div {
     background: green;
     border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+#box_0 {
+    background: linear-gradient(45deg, #5232a8, #a86f32, #34a832);
+}
+#box_1 {
+    background: linear-gradient(#a83a32, #593f37 50%);
+}
+#box_2 {
+    background: linear-gradient(to right, red 33.33%, green 33.33% 66.66%, blue 66.66% 100%);
+}
+#box_3 {
+    background: linear-gradient(to left, #FFDF00, #D4AF37, #CFB53B, #C5B358, #E6BE8A, #996515);
+}
+#box_4 {
+    content: url("https://pbs.twimg.com/profile_images/501162337756139521/h4jHQbqL.png");
+    height: 200px;
+    background: black;
+}
+#box_5 {
+    animation-name: gradient;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    /* background: linear-gradient(45deg, #ff71ce, #01cdfe, #05ffa1, #b967ff, #fffb96);  */
+}
+@keyframes gradient {
+    0% {
+        background: linear-gradient(45deg, #ff71ce, #01cdfe, #05ffa1, #b967ff, #fffb96); 
+    }
+    20% {
+        background: linear-gradient(45deg, #01cdfe, #05ffa1, #b967ff, #fffb96, #ff71ce);
+    }
+    40% {
+        background: linear-gradient(45deg, #05ffa1, #b967ff, #fffb96, #ff71ce, 	#01cdfe);
+    }
+    60% {
+        background: linear-gradient(45deg, #b967ff, #fffb96, #ff71ce, #01cdfe, #05ffa1);
+    }
+    80% {
+        background: linear-gradient(45deg, #fffb96, #ff71ce, #01cdfe, #05ffa1, #b967ff); 
+    }
+    100% {
+        background: linear-gradient(45deg, #b967ff, #fffb96, #ff71ce, #01cdfe, #05ffa1); 
+    }
+
 }
